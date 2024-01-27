@@ -1,5 +1,7 @@
-import { Main } from '@/components'
+'use client'
+
+import React from 'react'
 
 export default function Home() {
-  return <Main />
+  return <div>hell word</div>
 }

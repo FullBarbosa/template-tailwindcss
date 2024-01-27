@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  /* para que o padding e margin não aumente o tamanho do elemento */
+  box-sizing: border-box;
+}
+
+html,
+body,
+#__next {
+  @apply dark:bg-zinc-900 dark:text-zinc-100 bg-zinc-100 text-zinc-700;
+  height: 100%;
+}
+
+body {
+  font-family: Roboto, sans-serif;
+}
